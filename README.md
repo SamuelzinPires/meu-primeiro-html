@@ -5,7 +5,7 @@ Objetivo: praticar **HTML básico** e **semântica HTML5**.
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 - HTML5
 
 ---
