@@ -14,6 +14,8 @@ Objetivo: praticar **HTML básico** e **semântica HTML5**.
 - Estrutura básica de HTML (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`)  
 - Cabeçalhos (`<h1>`, `<h2>`), parágrafos (`<p>`), listas (`<ul>`/`<li>`), links (`<a>`), imagens (`<img>`)  
 - Uso de semântica HTML5: `<header>`, `<main>`, `<section>`, `<footer>`  
+- Navegação com `<nav>` e links fictícios  
+- Imagens semânticas usando `<figure>` e `<figcaption>`  
 - Comentários para anotação do código
 
 ---
