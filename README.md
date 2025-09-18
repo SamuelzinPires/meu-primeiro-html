@@ -16,6 +16,7 @@ Objetivo: praticar **HTML básico** e **semântica HTML5**.
 - Uso de semântica HTML5: `<header>`, `<main>`, `<section>`, `<footer>`  
 - Navegação com `<nav>` e links fictícios  
 - Imagens semânticas usando `<figure>` e `<figcaption>`  
+- **Formulário de contato com `<form>`, `<input>`, `<textarea>` e `<button>`**  
 - Comentários para anotação do código
 
 ---
