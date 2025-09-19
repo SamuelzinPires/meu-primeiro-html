@@ -5,7 +5,7 @@ Objetivo: praticar **HTML básico** e **semântica HTML5**.
 
 ---
 
-##  Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - HTML5
 
 ---
@@ -17,6 +17,9 @@ Objetivo: praticar **HTML básico** e **semântica HTML5**.
 - Navegação com `<nav>` e links fictícios  
 - Imagens semânticas usando `<figure>` e `<figcaption>`  
 - **Formulário de contato com `<form>`, `<input>`, `<textarea>` e `<button>`**  
+- **Conteúdo independente com `<article>`**  
+- **Informações complementares com `<aside>`**  
+- **Blocos expansíveis com `<details>` e `<summary>`**  
 - Comentários para anotação do código
 
 ---
