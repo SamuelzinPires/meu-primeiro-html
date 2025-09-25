@@ -5,29 +5,25 @@ Objetivo: praticar **HTML básico** e **semântica HTML5**.
 
 ---
 
-## Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 - HTML5
 
 ---
 
 ##  Funcionalidades
 - Estrutura básica de HTML (`<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`)  
-- Cabeçalhos (`<h1>`, `<h2>`), parágrafos (`<p>`), listas (`<ul>`/`<li>`), links (`<a>`), imagens (`<img>`)  
+- Cabeçalhos (`<h1>`, `<h2>`, `<h3>`), parágrafos (`<p>`), listas (`<ul>`/`<li>`), links (`<a>`), imagens (`<img>`)  
 - Uso de semântica HTML5: `<header>`, `<main>`, `<section>`, `<footer>`  
 - Navegação com `<nav>` e links fictícios  
 - Imagens semânticas usando `<figure>` e `<figcaption>`  
-- **Formulário de contato com `<form>`, `<input>`, `<textarea>` e `<button>`**  
-- **Conteúdo independente com `<article>`**  
-- **Informações complementares com `<aside>`**  
-- **Blocos expansíveis com `<details>` e `<summary>`**  
+- Formulário de contato com `<form>`, `<input>`, `<textarea>` e `<button>`  
+- **Formulário avançado com `<fieldset>`, `<legend>`, `radio`, `checkbox` e `select`**  
+- Conteúdo independente com `<article>`  
+- Informações complementares com `<aside>`  
+- Blocos expansíveis com `<details>` e `<summary>`  
+- **Tabela de plano semanal usando `<table>`, `<thead>`, `<tbody>` e `<th>`**  
+- **Incorporação de mídia externa com `<iframe>` (YouTube, Google Maps, etc.)**  
 - Comentários para anotação do código
-
----
-
-##  Preview
-> Aqui você pode adicionar **screenshots ou GIFs** do seu projeto.  
-> Exemplo de como fazer uma imagem aparecer no README:  
-> `![Minha Página HTML](caminho/para/imagem.png)`
 
 ---
 

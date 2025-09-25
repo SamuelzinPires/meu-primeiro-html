@@ -6,10 +6,11 @@
 </head>
 <body>
 
-  <!-- Cabeçalho da página -->
+  <!-- ===================== -->
+  <!-- Cabeçalho da página   -->
+  <!-- ===================== -->
   <header>
     <h1>Meu primeiro Site Testando funcionalidades básicas</h1>
-    <!-- Navegação -->
     <nav>
       <a href="#">Home</a> |
       <a href="#">Sobre</a> |
@@ -17,7 +18,9 @@
     </nav>
   </header>
 
-  <!-- Conteúdo principal -->
+  <!-- ===================== -->
+  <!-- Conteúdo principal    -->
+  <!-- ===================== -->
   <main> 
     <p>Gosto de me desenvolver em projetos e explorar tecnologias.</p>
 
@@ -29,8 +32,6 @@
         <li>Ler livros</li>
         <li>Viajar</li>
       </ul>
-
-      <!-- Link externo -->
       <a href="https://www.google.com" target="_blank">Visite o Google</a>
     </section>
 
@@ -38,7 +39,7 @@
     <section>
       <h2>Imagem aleatória</h2>
       <figure>
-        <img src="https://picsum.photos/200" alt="Imagem aleatória">
+        <img src="https://picsum.photos/200" alt="Imagem aleatória gerada pelo Picsum">
         <figcaption>Exemplo de imagem ilustrativa usando Picsum</figcaption>
       </figure>
     </section>
@@ -49,17 +50,38 @@
       <form>
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
-
         <br><br>
 
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" placeholder="Digite seu email" required>
-
         <br><br>
 
         <label for="mensagem">Mensagem:</label><br>
         <textarea id="mensagem" name="mensagem" rows="4" cols="30" placeholder="Digite sua mensagem"></textarea>
+        <br><br>
 
+        <!-- Novos campos -->
+        <fieldset>
+          <legend>Preferências de Contato</legend>
+          <label><input type="radio" name="contato" value="email" checked> Email</label>
+          <label><input type="radio" name="contato" value="telefone"> Telefone</label>
+        </fieldset>
+        <br>
+
+        <fieldset>
+          <legend>Áreas de Interesse</legend>
+          <label><input type="checkbox" name="area" value="frontend"> Front-End</label>
+          <label><input type="checkbox" name="area" value="backend"> Back-End</label>
+          <label><input type="checkbox" name="area" value="ml"> Machine Learning</label>
+        </fieldset>
+        <br>
+
+        <label for="nivel">Nível de Conhecimento:</label>
+        <select id="nivel" name="nivel">
+          <option value="iniciante">Iniciante</option>
+          <option value="intermediario">Intermediário</option>
+          <option value="avancado">Avançado</option>
+        </select>
         <br><br>
 
         <button type="submit">Enviar</button>
@@ -82,11 +104,70 @@
         <p>A primeira versão do HTML foi lançada em 1991 por Tim Berners-Lee.</p>
       </details>
     </section>
+
+    <!-- Seção de tabela -->
+    <section>
+      <h2>Plano Semanal de Estudos</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Dia</th>
+            <th>Foco do Estudo</th>
+            <th>Meta</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Segunda</td>
+            <td>HTML Básico</td>
+            <td>Estrutura inicial</td>
+          </tr>
+          <tr>
+            <td>Terça</td>
+            <td>HTML Semântico</td>
+            <td>Navegação e imagens</td>
+          </tr>
+          <tr>
+            <td>Quarta</td>
+            <td>Formulários</td>
+            <td>Inputs e textarea</td>
+          </tr>
+          <tr>
+            <td>Quinta</td>
+            <td>Tags extras</td>
+            <td>Article, aside, details</td>
+          </tr>
+          <tr>
+            <td>Sexta</td>
+            <td>Revisão</td>
+            <td>Organizar código</td>
+          </tr>
+          <tr>
+            <td>Sábado</td>
+            <td>Projeto</td>
+            <td>Mini site pessoal</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Seção de mídia externa -->
+    <section>
+      <h2>Inspiração em Vídeo</h2>
+      <iframe width="300" height="200"
+        src="https://www.youtube.com/embed/HWjCStB6k4o?si=2d4UIBMD-cbW6TLz" 
+        title="Happy Nation - Ace of Base"
+        frameborder="0"
+        allowfullscreen>
+      </iframe>
+    </section>
   </main>
 
-  <!-- Rodapé -->
+  <!-- ===================== -->
+  <!-- Rodapé                -->
+  <!-- ===================== -->
   <footer>
-    <p>Site criado por Samuel Pires de Miranda</p>
+    <p>© 2025 – Site criado por Samuel Pires de Miranda</p>
   </footer>
 
   <!-- Comentário -->
