@@ -1,13 +1,13 @@
 # Meu Primeiro Projeto HTML + CSS
 
 Projeto feito como parte do Plano de Estudos para Front-End.  
-Objetivo: praticar **HTML básico**, **semântica HTML5** e iniciar a aplicação de **CSS**.
+Objetivo: praticar **HTML básico**, **semântica HTML5** e aplicar os primeiros conceitos de **CSS (incluindo Flexbox)**.
 
 ---
 
-## Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 - HTML5  
-- CSS3
+- CSS3 (incluindo Flexbox)
 
 ---
 
@@ -34,6 +34,11 @@ Objetivo: praticar **HTML básico**, **semântica HTML5** e iniciar a aplicaçã
 - Centralização e limite de largura no conteúdo principal (`main { max-width; margin: auto }`)  
 - Títulos coloridos (`h1`, `h2`)  
 - Links estilizados com efeito hover (mudança visual ao passar o mouse)  
+- Layout responsivo inicial com **Flexbox**:
+  - Organização dos cartões em um contêiner flexível  
+  - Distribuição dos elementos com `justify-content`  
+  - Quebra de linha automática com `flex-wrap`  
+  - Ajuste de tamanho com `flex-basis` e `flex-grow`  
 
 ---
 
