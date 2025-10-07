@@ -1,46 +1,45 @@
+/* --- Estilos Gerais e Tipografia --- */
 body {
   background-color: #f0f0f0;
+  font-family: sans-serif;
+  color: #333333;
+  line-height: 1.6;
 }
 
+h1, h2 {
+  color: #1a1a1a;
+}
+
+/* --- Layout Principal --- */
+main {
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+} /* <-- A CHAVE QUE FALTAVA ESTÁ AQUI! */
+
+/* --- Estilos dos Componentes --- */
 .card {
   background-color: white;
   border: 1px solid #cccccc;
   border-radius: 8px;
   padding: 20px;
-   margin: 10px; /* <-- Ajustamos para ter margem em todos os lados */
-   
-  /* --- Propriedades Flex para os itens --- */
-  flex-grow: 1; /* Permite que o card cresça para ocupar espaço vago */
-  flex-basis: 350px; /* Define o tamanho base inicial do card */
-}
-/* --- Estilos Gerais e Tipografia --- */
-
-body {
-  font-family: sans-serif; /* Define uma fonte padrão limpa para toda a página */
-  color: #333333;           /* Define a cor padrão do texto para um cinza-escuro, mais suave que o preto puro */
-  line-height: 1.6;        /* Aumenta o espaçamento entre as linhas de texto, melhorando a leitura */
+  margin: 0; /* A propriedade 'gap' no grid-container já cuida do espaçamento */
 }
 
-h1, h2 {
-  color: #1a1a1a; /* Deixa os títulos com um tom de preto um pouco mais forte para criar hierarquia */
-}
-
-main {
-  max-width: 900px; /* Define que o conteúdo principal nunca ficará mais largo que 900 pixels */
-  margin: 20px auto;  /* Centraliza o conteúdo principal na página e adiciona uma margem no topo/fundo */  main {
-  max-width: 900px;
-  margin: 20px auto;
-  display: flex; /* <-- LIGA O FLEXBOX */
-  flex-wrap: wrap; /* <-- Permite que os itens quebrem para a linha de baixo */
-  justify-content: center; /* <-- Centraliza os cartões no contêiner */
-}
+#form-card {
+  grid-column: 1 / -1; /* Faz este item ocupar da primeira à última coluna */
 }
 
 a {
-  color: #007BFF; /* Define a cor dos links para um azul padrão e chamativo */
-  text-decoration: none; /* Remove o sublinhado padrão dos links */
+  color: #007BFF;
+  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline; /* Adiciona o sublinhado de volta QUANDO o mouse passa por cima do link */
+  text-decoration: underline;
 }
